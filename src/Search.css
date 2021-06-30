@@ -1,0 +1,32 @@
+.Search {
+  background-image: url("./images/typewriter.jpg");
+  background-size: 120%;
+  background-position: right 50% top 50%;
+  display: block;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.Search form [type="text"] {
+  margin: 0px auto;
+  border: none;
+  font-size: 20px;
+  background: none;
+  color: #a78341;
+  text-align: center;
+}
+.Search form .SearchForm {
+  padding-top: 170px;
+}
+
+.Search form [type="submit"] {
+  background: #37383d;
+  color: #a78341;
+  padding: 15px 10px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 2px 1px rgba(252, 252, 252, 0.5);
+  position: relative;
+  left: 135px;
+  top: 30px;
+}

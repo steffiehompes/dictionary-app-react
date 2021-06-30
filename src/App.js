@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Search from "./Search";
+import Results from "./Results";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="container">
+        <h1>
+          Dictionary <i class="fas fa-book-open"></i>
+        </h1>
+        <h3>/ˈdɪkʃ(ə)n(ə)ri/</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          a book or electronic resource that lists the words of a language
+          (typically in alphabetical order) and gives their meaning, or gives
+          the equivalent words in a different language, often also providing
+          information about pronunciation, origin, and usage.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Search />
+        <Results />
+      </div>
     </div>
   );
 }
