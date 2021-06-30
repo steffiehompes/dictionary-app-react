@@ -8,7 +8,7 @@
   margin: 0 auto;
   border-radius: 5px;
 }
-.Search form [type="text"] {
+.Search form [type="search"] {
   margin: 0px auto;
   border: none;
   font-size: 20px;
@@ -16,6 +16,7 @@
   color: #a78341;
   text-align: center;
 }
+
 .Search form .SearchForm {
   padding-top: 170px;
 }
