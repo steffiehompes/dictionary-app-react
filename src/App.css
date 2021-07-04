@@ -1,12 +1,16 @@
 .App {
   max-width: 700px;
   margin: 40px auto;
-  color: black;
   text-align: center;
   border: 1px solid black;
   font-family: "Montserrat", sans-serif;
 }
 
-.App p {
-  margin-top: 30px;
+.App h1 {
+  color: #76767c;
+  margin-top: 15px;
+}
+
+.App h3 {
+  color: #a78341;
 }

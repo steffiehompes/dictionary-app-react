@@ -11,7 +11,7 @@
 .Search form [type="search"] {
   margin: 0px auto;
   border: none;
-  font-size: 20px;
+  font-size: 25px;
   background: none;
   color: #a78341;
   text-align: center;
@@ -29,5 +29,5 @@
   box-shadow: 5px 5px 2px 1px rgba(252, 252, 252, 0.5);
   position: relative;
   left: 135px;
-  top: 30px;
+  top: 25px;
 }

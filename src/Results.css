@@ -1,5 +1,38 @@
+.Results {
+  margin-top: 350px;
+}
+.Results .Results-word {
+  color: #76767c;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.Results p.Phonetics {
+  font-size: 40px;
+  font-weight: 200;
+  color: #a78341;
+}
 .Results button {
   border: none;
-  background: none;
+  background: #a78341;
+  padding: 5px 10px;
   border-radius: 50%;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.Results h4 {
+  color: #a78341;
+}
+
+.Results p {
+  color: #76767c;
+}
+
+.Results .Meaning .Results-partOfSpeech,
+.Results .Meaning .Results-definitions {
+  text-align: left;
+}
+.Results .Meaning .Results-partOfSpeech:first-letter {
+  text-transform: capitalize;
 }
