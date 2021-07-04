@@ -11,6 +11,19 @@ function App() {
         <h3>/ˈdɪkʃ(ə)n(ə)ri/</h3>
 
         <Search />
+        <footer>
+          Coded by Steffie Hompes,{" "}
+          <a
+            className="Github"
+            href="https://github.com/steffiehompes/dictionary-app-react"
+            target="_blank"
+            rel="noreferrer"
+            alt="github-link"
+          >
+            {" "}
+            open source on Github
+          </a>
+        </footer>
       </div>
     </div>
   );

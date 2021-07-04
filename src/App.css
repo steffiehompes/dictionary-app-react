@@ -14,3 +14,19 @@
 .App h3 {
   color: #a78341;
 }
+
+.App footer {
+  font-size: 15px;
+  color: #76767c;
+  margin: 10px;
+  font-weight: 300;
+}
+.App a {
+  text-decoration: none;
+  color: #a78341;
+  font-weight: 500;
+}
+.App a:hover {
+  color: #76767c;
+  transition: 200ms all ease-in-out;
+}
