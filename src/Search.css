@@ -21,12 +21,23 @@
   padding-top: 170px;
 }
 
+.Search input:focus {
+  border-radius: 5px;
+  border: 1px solid #a78341 !important;
+  box-shadow: 0 0 3px#a78341 !important;
+}
+.Search input:focus,
+select:focus {
+  outline-offset: 0px !important;
+  outline: none !important;
+}
+
 .Search form [type="submit"] {
   background: #37383d;
   color: #a78341;
   padding: 15px 10px;
   border-radius: 50%;
-  box-shadow: 5px 5px 2px 1px rgba(252, 252, 252, 0.5);
+  box-shadow: 5px 5px 2px 1px #fcfcfc80;
   position: relative;
   left: 135px;
   top: 25px;
