@@ -1,5 +1,5 @@
 .Results {
-  margin-top: 350px;
+  margin-top: 400px;
 }
 .Results .Results-word {
   color: #76767c;
@@ -12,20 +12,19 @@
   font-weight: 200;
   color: #a78341;
 }
-.Results .Phonetics button {
-  border: none;
+
+.Results .Phonetics .VolumeIcon {
   box-shadow: 3px 3px 5px 1px #36363680;
-  text-align: center;
-  background: #a78341;
-  padding: 4px 8px;
+
+  background: #37383d;
+  color: #a78341;
+  padding: 5px;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 10px;
 }
-.Results .Phonetics button a {
-  text-decoration: none;
-}
-.Results .Phonetics button:hover {
+
+.Results .Phonetics .VolumeIcon:hover {
   color: #a78341;
   border: 1px solid #a78341;
   background: white;

@@ -1,17 +1,18 @@
 import React from "react";
+import VolumeUp from "@material-ui/icons/VolumeUp";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics.text);
+  const audio = new Audio(props.phonetics.audio);
+  const playSound = (audioFile) => {
+    audioFile.play();
+  };
   return (
     <div className="Phonetics">
-      {" "}
       {props.phonetics.text}
-      <button>
-        {" "}
-        <a href={props.phonetics.audio} target="_blank" rel="noreferrer">
-          🎙
-        </a>
-      </button>
+      <VolumeUp
+        className="VolumeIcon"
+        onClick={() => playSound(audio)}
+      ></VolumeUp>
     </div>
   );
 }
