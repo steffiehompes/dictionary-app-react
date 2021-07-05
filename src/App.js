@@ -7,9 +7,10 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>
-          Dictionary
+          DICTIONARY
           <LocalLibraryIcon className="LibraryIcon"></LocalLibraryIcon>
         </h1>
+        <hr></hr>
 
         <Search defaultKeyword="code" />
         <footer>

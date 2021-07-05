@@ -14,11 +14,11 @@
   background: none;
   color: #a78341;
   text-align: center;
-  max-width: 270px;
+  max-width: 220px;
 }
 
 .Search form .SearchForm {
-  padding-top: 240px;
+  padding-top: 260px;
 }
 
 .Search input:focus {
@@ -35,25 +35,29 @@ select:focus {
 .Search form [type="submit"] {
   background: #37383d;
   color: #a78341;
-  font-size: 19px;
+  font-size: 16px;
   padding: 15px 10px;
   border-radius: 50%;
   border: none;
-  box-shadow: 3px 3px 6px 1px #818183;
+  box-shadow: 3px 3px 4px 1px #5b5b5c;
   position: relative;
-  left: 140px;
-  top: 50px;
+  left: 115px;
+  top: 40px;
 }
 .Search section {
   text-align: left;
   position: relative;
-  bottom: 665px;
-  left: 100px;
+  bottom: 610px;
+  left: 75px;
   font-size: 10px;
-  max-width: 260px;
+  max-width: 235px;
   letter-spacing: 2px;
 }
 .Search .Introduction {
   color: #a78341;
   margin-top: 15px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  font-size: 9px;
 }
