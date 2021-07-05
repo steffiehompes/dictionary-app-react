@@ -1,15 +1,17 @@
 import "./App.css";
 import Search from "./Search";
+import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <h1>
-          Dictionary <i className="fas fa-book-open"></i>
+          Dictionary
+          <LocalLibraryIcon className="LibraryIcon"></LocalLibraryIcon>
         </h1>
 
-        <Search />
+        <Search defaultKeyword="code" />
         <footer>
           Coded by Steffie Hompes,{" "}
           <a
