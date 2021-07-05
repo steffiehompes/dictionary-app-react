@@ -44,6 +44,13 @@ select:focus {
   left: 115px;
   top: 40px;
 }
+
+.Search form [type="submit"]:hover {
+  color: #a78341;
+  border: 1px solid #a78341;
+  opacity: 0.8;
+  transition: 200ms all ease-in-out;
+}
 .Search section {
   text-align: left;
   position: relative;

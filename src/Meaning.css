@@ -4,7 +4,7 @@
   line-height: 1;
 }
 .Meaning .Example {
-  color: #76767c;
+  font-weight: 200;
   font-size: 14px;
   margin: 5px 0;
 }
