@@ -1,71 +1,12 @@
-.Results {
-  margin-top: 400px;
-}
 .Results .Results-word {
-  color: #76767c;
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 300;
-}
-.Results .Phonetics {
-  font-size: 40px;
-  font-weight: 200;
-  color: #a78341;
-}
-
-.Results .Phonetics .VolumeIcon {
-  box-shadow: 3px 3px 5px 1px #36363680;
-
-  background: #37383d;
-  color: #a78341;
-  padding: 5px;
-  border-radius: 50%;
-  font-size: 40px;
-  margin-left: 10px;
-}
-
-.Results .Phonetics .VolumeIcon:hover {
-  color: #a78341;
-  border: 1px solid #a78341;
-  background: white;
-  transition: 100ms all ease-in-out;
 }
 
 .Results h4 {
   color: #a78341;
-}
-
-.Results p {
-  color: #76767c;
-}
-
-.Results .Meaning {
-  margin-top: 40px;
-}
-.Results .Meaning .Description {
-  color: #76767c;
-}
-.Results .Meaning .Example {
-  color: #76767c;
-}
-.Results .Meaning .partOfSpeech,
-.Results .Meaning .definitions {
-  text-align: left;
-}
-.Results .Meaning .partOfSpeech:first-letter {
-  text-transform: capitalize;
-}
-.Results .Synonyms ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-}
-.Results .Synonyms li {
-  border: 1px solid #a78341;
-  list-style: none;
-  display: inline-block;
-  font-size: 13px;
-  margin: 5px 5px 0;
-  padding: 5px 10px;
-  border-radius: 5px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 2;
 }

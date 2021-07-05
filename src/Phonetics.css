@@ -1,0 +1,21 @@
+.Phonetics {
+  font-size: 30px;
+  font-weight: 200;
+  color: #a78341;
+}
+.Phonetics .VolumeIcon {
+  box-shadow: 3px 3px 5px 1px #36363680;
+  background: #37383d;
+  color: #a78341;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.Phonetics .VolumeIcon:hover {
+  color: #a78341;
+  border: 1px solid #a78341;
+  background: white;
+  transition: 100ms all ease-in-out;
+}

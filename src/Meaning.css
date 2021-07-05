@@ -1,0 +1,18 @@
+.Meaning {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1;
+}
+.Meaning .Example {
+  color: #76767c;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.Meaning .partOfSpeech,
+.Meaning .definitions {
+  text-align: left;
+}
+.Meaning .partOfSpeech:first-letter {
+  text-transform: capitalize;
+}

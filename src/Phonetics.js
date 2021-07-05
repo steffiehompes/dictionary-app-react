@@ -1,5 +1,6 @@
 import React from "react";
 import VolumeUp from "@material-ui/icons/VolumeUp";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   const audio = new Audio(props.phonetics.audio);

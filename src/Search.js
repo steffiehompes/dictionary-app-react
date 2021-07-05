@@ -23,20 +23,25 @@ export default function Search() {
     setKeyword(event.target.value);
   }
   return (
-    <div className="Search">
-      <form onSubmit={handleSubmit}>
-        <div className="SearchForm">
-          <input
-            type="search"
-            placeholder="Write something..."
-            onChange={handleKeywordChange}
-          />
-        </div>
-        <div className="SearchButton">
-          <input type="submit" value="Enter" />
-        </div>
-      </form>
-      <Results results={result} />
+    <div className="Search row">
+      <div className="col">
+        <form onSubmit={handleSubmit}>
+          <div className="SearchForm">
+            <input
+              type="search"
+              placeholder="Write something..."
+              onChange={handleKeywordChange}
+              autoFocus
+            />
+          </div>
+          <div className="SearchButton">
+            <input type="submit" value="Enter" />
+          </div>
+        </form>
+      </div>
+      <div className="col">
+        <Results results={result} />
+      </div>
     </div>
   );
 }

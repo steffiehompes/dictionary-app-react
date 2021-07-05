@@ -1,0 +1,17 @@
+.Synonyms .Description {
+  font-size: 14px;
+  color: #76767c;
+}
+.Synonyms ul {
+  list-style: none;
+  padding: 0;
+}
+.Synonyms li {
+  border: 1px solid #a78341;
+  list-style: none;
+  display: inline-flex;
+  font-size: 13px;
+  margin: 8px 5px 0 0;
+  padding: 3px 6px;
+  border-radius: 5px;
+}

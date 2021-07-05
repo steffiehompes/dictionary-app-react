@@ -1,13 +1,21 @@
 .App {
-  max-width: 700px;
-  margin: 40px auto;
+  max-width: 1000px;
+  margin: 20px auto;
   text-align: center;
-  border: 1px solid black;
+  color: #37383d;
+  border: 4px outset rgba(55, 56, 61, 0.5);
+  border-radius: 5px;
   font-family: "Montserrat", sans-serif;
+  background: rgb(248, 248, 252);
+  background: linear-gradient(
+    207deg,
+    rgba(248, 248, 252, 0.7483368347338936) 0%,
+    rgba(237, 237, 237, 1) 48%,
+    rgba(250, 250, 250, 1) 100%
+  );
 }
 
 .App h1 {
-  color: #76767c;
   margin-top: 15px;
 }
 
